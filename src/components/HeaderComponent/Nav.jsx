@@ -11,7 +11,6 @@ const Nav = () => {
                 <div class="container-fluid">
                     <div className="col">
                         <a href="#"><img src={icon} alt="denver-icon" style={{ width: '100px' }} /></a>
-                        
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
