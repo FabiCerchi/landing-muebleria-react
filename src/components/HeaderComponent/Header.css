@@ -1,0 +1,23 @@
+.facilidades {
+    background-color: #000;
+    width: 100%;
+    height: 26px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+}
+
+#navbarNav ul li {
+    margin-left: 2px;
+}
+
+nav {
+    background-color:#f6f6f6;
+    font-weight: 400;
+}
+
+.corousel-img{
+    max-height: 700px;
+    width: 100%;
+}
