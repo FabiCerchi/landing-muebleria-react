@@ -3,7 +3,6 @@ import denver_icon from './assets/nav-icon.png';
 import ml from './assets/ml.svg';
 import ig from './assets/ig.svg';
 import fb from './assets/fb.svg';
-
 const Nav = () => {
     return (
         <div>
@@ -24,7 +23,7 @@ const Nav = () => {
                                 <a className="nav-link active " aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Productos</a>
+                                <a className="nav-link"  href="#productos">Productos</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled">Contacto</a>

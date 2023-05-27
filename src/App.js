@@ -7,10 +7,11 @@ import WhatsApp from './components/WhatsAppComponent/WhatsAppComponent';
 function App() {
   return (
     <div className=''>
+
       <Header/>
       <Main/>
-      <WhatsApp/>
-      <Footer/>
+      <WhatsApp />
+      <Footer />
     </div>
   );
 }

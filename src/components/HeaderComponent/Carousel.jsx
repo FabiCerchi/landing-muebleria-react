@@ -3,8 +3,6 @@ import cEnvios from './assets/c-envios.webp';
 import cCuotas from './assets/c-cuotas.webp';
 import cLocales from './assets/c-locales.png';
 const Carousel = () => {
-
-    const imageUrl = 'https://cdn.shopify.com/s/files/1/0664/8063/6125/files/IMG_9973.jpg?v=1668527137&width=3840';
     return (
         <div className='mt-5'>
             <div id="carouselExampleDark" className="carousel carousel-dark slide">
