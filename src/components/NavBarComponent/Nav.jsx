@@ -6,7 +6,7 @@ import fb from './assets/fb.svg';
 const Nav = () => {
     return (
         <div>
-            <div className='container-fluid facilidades d-none d-sm-block fixed-top'>
+            <div className='container-fluid facilidades d-none d-sm-block fixed-top' id="home">
                 <p>Hasta 6 cuotas sin interés. Compras en Efectivo o Transferencia 15% off</p>
             </div>
             <nav className="navbar navbar-expand-lg p-2 fixed-top mt-md-4">
@@ -33,13 +33,13 @@ const Nav = () => {
                     <div className="collapse navbar-collapse col-4 justify-content-end">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link red" href="#"><img src={fb} alt="" /></a>
+                                <a className="nav-link red" href="https://www.facebook.com" target='blank'><img src={fb} alt="" /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link red" href="#"><img src={ig} alt="" /></a>
+                                <a className="nav-link red" href="https://www.instagram.com"target='blank'><img src={ig} alt="" /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link red" href="#"><img src={ml} alt="" /></a>
+                                <a className="nav-link red" href="https://www.mercadolibre.com.ar" target='blank'><img src={ml} alt="" /></a>
                             </li>
                         </ul>
                     </div>
