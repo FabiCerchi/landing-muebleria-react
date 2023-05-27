@@ -1,13 +1,16 @@
 import React from 'react';
 import denver_icon from './assets/nav-icon.png';
+import ml from './assets/ml.svg';
+import ig from './assets/ig.svg';
+import fb from './assets/fb.svg';
 
 const Nav = () => {
     return (
         <div>
-            <div className='container-fluid facilidades d-none d-sm-block'>
+            <div className='container-fluid facilidades d-none d-sm-block fixed-top'>
                 <p>Hasta 6 cuotas sin interés. Compras en Efectivo o Transferencia 15% off</p>
             </div>
-            <nav className="navbar navbar-expand-lg p-2">
+            <nav className="navbar navbar-expand-lg p-2 fixed-top mt-md-4">
                 <div className="container-fluid">
                     <div className="col-4">
                         <a href="#"><img src={denver_icon} alt="denver-icon" style={{ width: '100px' }} /></a>
@@ -18,13 +21,10 @@ const Nav = () => {
                     <div className="collapse navbar-collapse col-4 justify-content-center" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a className="nav-link active " aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Productos</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Destacados</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled">Contacto</a>
@@ -34,13 +34,13 @@ const Nav = () => {
                     <div className="collapse navbar-collapse col-4 justify-content-end">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Facebook</a>
+                                <a className="nav-link red" href="#"><img src={fb} alt="" /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Instagram</a>
+                                <a className="nav-link red" href="#"><img src={ig} alt="" /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Twitter</a>
+                                <a className="nav-link red" href="#"><img src={ml} alt="" /></a>
                             </li>
                         </ul>
                     </div>

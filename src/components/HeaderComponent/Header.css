@@ -8,16 +8,12 @@
     padding: 2px;
 }
 
-#navbarNav ul li {
-    margin-left: 2px;
-}
-
 nav {
     background-color:#f6f6f6;
     font-weight: 400;
 }
 
 .corousel-img{
-    max-height: 700px;
+
     width: 100%;
 }
